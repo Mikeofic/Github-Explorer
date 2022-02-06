@@ -4,11 +4,12 @@ interface  RepostoryItemProps {
   repository: {
     name: string,
     description: string,
-    html_url: string
+    html_url: string,
   }
 }
 
 export function RepostoryItem(props: RepostoryItemProps) {
+  
   return (
     <li>
       <strong>{props.repository.name}</strong>
