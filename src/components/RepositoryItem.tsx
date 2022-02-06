@@ -1,3 +1,5 @@
+import "../styles/repositoryItem.scss";
+
 interface  RepostoryItemProps {
   repository: {
     name: string,
